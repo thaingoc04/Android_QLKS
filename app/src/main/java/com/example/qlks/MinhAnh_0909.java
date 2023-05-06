@@ -18,13 +18,13 @@ public class MinhAnh_0909 implements Serializable {
         this.price = price;
         this.day = day;
     }
-//     public MinhAnh_0909(int Id, String name, int roomId, int price, int day){
-//         this.Id = Id;
-//         this.name = name;
-//         this.roomId = roomId;
-//         this.price = price;
-//         this.day = day;
-//     }
+    public MinhAnh_0909(int Id, String name, int roomId, int price, int day){
+        this.Id = Id;
+        this.name = name;
+        this.roomId = roomId;
+        this.price = price;
+        this.day = day;
+    }
 
     public int getId() {
         return Id;
